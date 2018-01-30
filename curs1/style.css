@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f5f5f5 url("curs1/image/body-bg.jpg")repeat-x;
+    font-family: Arial;
+}
+.karkas{
+
+    width: 755px;
+    margin: 0 auto;
+}
+.logo{
+    display: block;
+    margin: 30px auto 20px auto;
+}
+/******************************************
+
+MENU
+
+*******************************************/
+nav{
+    margin-bottom: 15px;
+}
+nav ul{
+    overflow: hidden;
+    border-bottom: 2px solid #9dc5f0;
+    border-top: 1px solid #f5f5f5;
+    border-right: 1px solid #f5f5f5;
+
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    border-left: 1px solid #f5f5f5;
+    padding: 8px 38px;
+    font-family: "Bauhaus 93";
+    font-size: 14px;
+}
+/*************************************************
+
+main content
+
+******************************************************/
+.main-content{
+    overflow: hidden;
+}
+.content-image{
+    padding-bottom: 25px;
+}
+article{
+    width: 420px;
+    padding: 35px 25px 32000px 25px;
+    margin-bottom: -32000px;
+    float: left;
+    background: #ffffff;
+
+    font-size: 14px;
+    color: #747474;
+}
+aside{
+    width: 225px;
+    padding: 35px 25px 32000px 25px;
+    margin-bottom: -32000px;
+    float: right;
+    background: #ffffff;
+}
